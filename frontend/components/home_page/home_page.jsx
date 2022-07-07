@@ -7,6 +7,7 @@ class HomePage extends React.Component {
 
   componentDidMount() {
     console.log('test')
+    console.log(this.props.currentUser)
   }
 
   render() {
@@ -16,7 +17,19 @@ class HomePage extends React.Component {
           <div className="nav-header">
             <nav className="nav">
               <div className="main-nav">
-                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobinhood-logo.png" alt=""/>
+                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobin-hood-sideways.png" alt=""/>
+              </div>
+              <div className="github-link-1">
+
+              </div>
+              <div className="linkedin-link-1">
+
+              </div>
+              <div className="portfolio-link-1">
+
+              </div>
+              <div className="angelco-link-1">
+                
               </div>
             </nav>
           </div>
