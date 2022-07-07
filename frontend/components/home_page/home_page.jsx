@@ -16,19 +16,20 @@ class HomePage extends React.Component {
           <div className="nav-header">
             <nav className="nav">
               <div className="main-nav">
-                <img src="https://camo.githubusercontent.com/6c0c0f49f30696ca993b4f2058779841cc005f01fbefb71f8e3e8fc5d9c362a3/68747470733a2f2f692e696d6775722e636f6d2f634d796e45377a2e6a7067" alt=""/>
+                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobinhood-logo.png" alt=""/>
               </div>
             </nav>
           </div>
         </header>
         <div className="home-section-1">
           <div>
-            <h1>Investing for</h1>
-            <h1>Everyone</h1>
-            <h2>Commission-free investing, plus the tools</h2>
-            <h2>you need to put your money in motion. Sign</h2>
-            <h2>up and get your first stock for free. Certain</h2>
-            <h2>limitations apply.</h2>
+            <h1>Investing is</h1>
+            <h1>simple here</h1>
+            <h2>Start building your portfolio with just $1</h2>
+            <h3>Invest in stocks, options, and ETFs at your pace and commission-free.</h3>
+            <h1>Crypto</h1>
+            <h2>Dive right in without the commission fees</h2>
+            <h3>Other crypto exchanges charge up to 4% just to buy and sell crypto. We charge 0%. Get BTC, ETH, LTC, DOGE, and more with as little as $1.</h3>
           </div>
         </div>
       </div>
