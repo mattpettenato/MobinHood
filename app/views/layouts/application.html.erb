@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <meta property="og:title" content="MobinHood" />
+    <%# <meta property='og:image' content="<%= image_url("pic.png") %>
+    <meta property="og:description"
+      content="Inspired by the investment app, Robinhood, Mobinhood is a stock trading application that allows users to purchase, sell, and keep track of stocks."
+    />
+    <%# <meta property="og:url"
+      content="https://mobinhood.herokuapp.com/#/"
+    /> %>
+
+
     <title>MobinHood</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", media: "all" %>
+    <%# <%= javascript_include_tag "application" %>
+    
+    <%= javascript_tag "application", 'data-turbolinks-track': "reload" %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
+
   </head>
 
   <body>
