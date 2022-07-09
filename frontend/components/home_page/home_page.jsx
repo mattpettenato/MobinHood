@@ -17,7 +17,7 @@ class HomePage extends React.Component {
           <div className="nav-header">
             <nav className="nav">
               <div className="main-nav">
-                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobin-hood-sideways.png" alt=""/>
+                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobin-hood-logo-small.png" alt=""/>
               </div>
               <div className="github-link-1">
 
@@ -29,7 +29,7 @@ class HomePage extends React.Component {
 
               </div>
               <div className="angelco-link-1">
-                
+
               </div>
             </nav>
           </div>
