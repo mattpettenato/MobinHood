@@ -6,30 +6,33 @@ class HomePage extends React.Component {
   }
 
   componentDidMount() {
-    console.log('test')
-    console.log(this.props.currentUser)
+    // console.log('test')
+    // console.log(this.props.currentUser)
   }
 
   render() {
     return (
       <div className="home">
-        <header>
+        <header className='header-1'>
           <div className="nav-header">
             <nav className="nav">
-              <div className="main-nav">
+              <div className="main-logo">
                 <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobin-hood-logo-small.png" alt=""/>
               </div>
-              <div className="github-link-1">
+              <div className="nav-links">
+                <div className="github-link-1">
+                  <a href="https://github.com/mattpettenato">Github</a>
+                </div>
+                <div className="linkedin-link-1">
+                  <a href="https://www.linkedin.com/in/matthew-pettenato-936236123/">LinkedIn</a>
+                </div>
+                <div className="portfolio-link-1">
+                  <a href="https://mattpettenato.com/">LinkedIn</a>
+                </div>
+                <div className="angelco-link-1">
+                  <a href="https://angel.co/u/matthew-pettenato">AngelList</a>
 
-              </div>
-              <div className="linkedin-link-1">
-
-              </div>
-              <div className="portfolio-link-1">
-
-              </div>
-              <div className="angelco-link-1">
-
+                </div>
               </div>
             </nav>
           </div>
