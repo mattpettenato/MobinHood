@@ -39,8 +39,8 @@ class HomePage extends React.Component {
         </header>
         <div className="home-section-1">
           <div>
-            <h1>Investing is</h1>
-            <h1>simple here</h1>
+            <h1>Investing is simple here</h1>
+            {/* <h1>simple here</h1> */}
             <h2>Start building your portfolio with just $1</h2>
             <h3>Invest in stocks, options, and ETFs at your pace and commission-free.</h3>
             <h1>Crypto</h1>
