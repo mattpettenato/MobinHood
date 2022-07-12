@@ -40,7 +40,7 @@ class LoginForm extends React.Component {
       <div className="login-form">
         <form onSubmit={this.handleSubmit} className="login-form-box">
           <header className="login-header">
-            <span className="login-header-text">Welcome to Robinhood</span>
+            <span className="login-header-text">Welcome to Mobinhood</span>
           </header>
 
           <div className="login-email">

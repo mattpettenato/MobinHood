@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -21,20 +22,29 @@ class HomePage extends React.Component {
               </div>
               <div className="nav-links">
                 <div className="github-link-1">
-                  <a href="https://github.com/mattpettenato">Github</a>
+                  <a href="https://github.com/mattpettenato" target="_blank">Github</a>
+                  
                 </div>
                 <div className="linkedin-link-1">
-                  <a href="https://www.linkedin.com/in/matthew-pettenato-936236123/">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/matthew-pettenato-936236123/" target="_blank">LinkedIn</a>
                 </div>
                 <div className="portfolio-link-1">
-                  <a href="https://mattpettenato.com/">LinkedIn</a>
+                  <a href="https://mattpettenato.com/" target="_blank">Portfolio</a>
                 </div>
                 <div className="angelco-link-1">
-                  <a href="https://angel.co/u/matthew-pettenato">AngelList</a>
-
+                  <a href="https://angel.co/u/matthew-pettenato" target="_blank">AngelList</a>
                 </div>
               </div>
             </nav>
+              <div className="nav-in-out">
+                <div className="sign-in-1">
+                  <Link to="/login" className="sign-in-link"><span>Log in</span></Link>
+                </div>
+                <div className="nav-in-space"></div>
+                <div className="sign-up-1">
+                  <Link to="/signup" className="sign-up-link"><span>Log in</span></Link>
+                </div>
+              </div>
           </div>
         </header>
         <div className="home-section-1">
