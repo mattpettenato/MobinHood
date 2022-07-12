@@ -87,12 +87,14 @@ body {
   border-radius: 5px;
   margin: 5px;
   transition: 0.5s;
-  background-color: #c41200;
+  background-color: rgb(111, 229, 32);
 }
 
 .nav-links a:last-child {
   color: white;
-  background-color: #c41200;
+  /* background-color: #c41200; */
+  background-color: rgb(111, 229, 32);
+
   border: none;
   transition: 0.5s;
 }
@@ -104,7 +106,9 @@ body {
 
 .nav-links a:last-child:hover {
   text-decoration: none;
-  background-color: #d32323;
+  /* background-color: #d32323; */
+  background-color: rgb(111, 229, 32);
+
 }
 
 .mylinks {
