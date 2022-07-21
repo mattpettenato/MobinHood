@@ -18,7 +18,7 @@ class HomePage extends React.Component {
           <div className="nav-header">
             <nav className="nav">
               <div className="main-logo">
-                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/mobin-hood-logo-small.png" alt=""/>
+                <img src="https://raw.githubusercontent.com/mattpettenato/MobinHood/main/pics/MobinHoodLogo_35.png" alt=""/>
               </div>
               <div className="nav-links">
                 <div className="github-link-1">
